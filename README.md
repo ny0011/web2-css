@@ -8,15 +8,15 @@ css를 사용하면 디자인과 관련된 코드 중복을 제거할 수 있다
 선택자 : 태그 이름 혹은 디자인을 바꾸고 싶은 태그
 속성 : 태그 디자인을 어떻게 바꾸고 싶은지 설정
 
-'''
+```c
 a {
     color:red
 }
+```
 a : 선택자(selector)
 color:red : 선언(declaration)
 color : 속성(property)
 red : 값(value)
-'''
 
 reference : Coding Everyday(WEB2 - CSS, creator : egoing) https://opentutorials.org/course/3086
 <img src="https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3129/7333.jpg"></a>
