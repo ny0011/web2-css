@@ -32,7 +32,7 @@ font size 검색어 : css text size property
 태그에 class를 여러개 적용할 수 있음. css에서 가장 나중에 선언한 클래스를 적용함.
 tag -> class -> id id로 갈 수 더 우선순위 높음
 
-css selector : https://www.w3schools.com/cssref/css_selectors.asp
+▶ css selector : https://www.w3schools.com/cssref/css_selectors.asp
 
 h1, a{
     border-width:5px;
@@ -48,6 +48,7 @@ p 같이 자기 자신의 크기 공간만 차지하는 태그 : inline element(
 ★꿀팁?
 태그를 안보이게 하고 싶을 때 -> display:none;
 
+▶ css box model : https://www.google.co.kr/search?q=css+box+model&hl=ko&authuser=0&rlz=1C1GCEU_koKR821KR821&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjPzezc-ZTgAhUI7LwKHZSVDwUQ_AUIDigB&biw=1158&bih=592
 border- 가 중복되니까 한번에 쓰고 싶을 때
 h1, a{
     border:5px red solid;
@@ -55,6 +56,9 @@ h1, a{
 속성에 값을 한번에 쓰자
 순서는 중요하지 않음.
 
+태그 내 content와 border 사이 값이 없으므로 공간을 주고 싶을 때 : padding
+태그 border와 다른 태그 border 사이 간격 : margin
+태그 내 content의 크기 : width(가로), height(세로)
 ```
 
 <strong>reference : Coding Everyday(WEB2 - CSS, creator : egoing)</strong>
