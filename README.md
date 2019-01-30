@@ -59,6 +59,15 @@ h1, a{
 태그 내 content와 border 사이 값이 없으므로 공간을 주고 싶을 때 : padding
 태그 border와 다른 태그 border 사이 간격 : margin
 태그 내 content의 크기 : width(가로), height(세로)
+
+div : 아무 의미가 없고 디자인의 용도로만 쓰는 태그. block level element
+span : div와 같은 용도. inline element
+
+▶ grid
+div 태그를 가진 두 개의 요소들을 위 아래가 아니라 양 옆으로 배치하고 싶을 때 grid를 사용해보자
+display:grid;
+grid-template-columns: 150px 1fr; -> 처음 것 크기, 두번째 것 크기
+
 ```
 
 <strong>reference : Coding Everyday(WEB2 - CSS, creator : egoing)</strong>
