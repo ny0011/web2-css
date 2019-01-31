@@ -67,7 +67,10 @@ span : div와 같은 용도. inline element
 div 태그를 가진 두 개의 요소들을 위 아래가 아니라 양 옆으로 배치하고 싶을 때 grid를 사용해보자
 display:grid;
 grid-template-columns: 150px 1fr; -> 처음 것 크기, 두번째 것 크기
+fr은 화면 전체 비율을 따지는 단위(?)
+그리드는 제일 위에 있는 태그 개수를 기준으로 나뉘게 됨.
 
+★ 웹 브라우저에서 이 기술을 사용할 수 있는지 확인하는 사이트 : https://caniuse.com/
 ```
 
 <strong>reference : Coding Everyday(WEB2 - CSS, creator : egoing)</strong>
