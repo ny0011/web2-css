@@ -71,6 +71,16 @@ fr은 화면 전체 비율을 따지는 단위(?)
 그리드는 제일 위에 있는 태그 개수를 기준으로 나뉘게 됨.
 
 ★ 웹 브라우저에서 이 기술을 사용할 수 있는지 확인하는 사이트 : https://caniuse.com/
+
+★ 반응형 디자인 : @media 쿼리
+http://blog.saltfactory.net/using-css-media-query-for-responsive-web/
+screen width >= 800px  
+@media (min-width:800px) {}
+아래와 위의 코드 의미는 같음
+
+screen width <= 800px  
+@media (max-width:800px) {}
+
 ```
 
 <strong>reference : Coding Everyday(WEB2 - CSS, creator : egoing)</strong>
