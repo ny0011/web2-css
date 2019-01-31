@@ -81,6 +81,8 @@ screen width >= 800px
 screen width <= 800px  
 @media (max-width:800px) {}
 
+media {} 괄호 안에 ()일 때 바꾸고 싶은 디자인 css 를 추가하면 됨.
+
 ```
 
 <strong>reference : Coding Everyday(WEB2 - CSS, creator : egoing)</strong>
