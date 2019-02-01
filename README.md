@@ -83,6 +83,10 @@ screen width <= 800px
 
 media {} 괄호 안에 ()일 때 바꾸고 싶은 디자인 css 를 추가하면 됨.
 
+★ css코드 재사용 -> css 파일을 만들어서 사용하고 싶은 html파일에 아래 코드를 추가함
+<link rel="stylesheet" href="style.css">
+
+★ 캐싱 : 한번 CSS파일(등 웹페이지 코드 파일들)을 저장해두면 다시 다운로드 받을 필요 없이 그 파일을 계속 사용 가능함. 다운로드 트래픽 감소 효과.
 ```
 
 <strong>reference : Coding Everyday(WEB2 - CSS, creator : egoing)</strong>
